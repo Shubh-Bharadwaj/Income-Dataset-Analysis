@@ -17,10 +17,10 @@ demographic details, and select financial parameters.
 
 🛠️ **Tools and Libraries Used:**
 
--Data Cleaning and Processing: Pandas, NumPy
+-**Data Cleaning and Processing:** Pandas, NumPy
 
--Data Visualization: Matplotlib, Seaborn
+-**Data Visualization:** Matplotlib, Seaborn
 
--Machine Learning: Scikit-Learn (train_test_split, LogisticRegression)
+-**Machine Learning:** Scikit-Learn (train_test_split, LogisticRegression)
 
--Model Evaluation: accuracy_score, confusion_matrix
+-**Model Evaluation:** accuracy_score, confusion_matrix

@@ -27,3 +27,24 @@ Missing values in Jobtype = 1809
 Missing values in Occupation = 1816
 1816-1809= 7 never worked category
 """
+data2=data.dropna(axis=0)
+
+data2.columns
+
+gender=pd.crosstab(index=data2["gender"],columns='count',normalize=True)
+print(gender)
+
+# Gender vs Salary Status
+gender_salstat=pd.crosstab(index=data2["gender"], 
+                           columns=data2["SalStat"],
+                           margins=True,
+                           normalize='index') #row proportion = 1)
+print(gender_salstat)
+
+# Frequency distribution of 'Salary Status'
+salstat=sns.countplot(data=data2,x='SalStat')
+
+sns.distplot(data2['age'],bins=10,kde=False)
+sns.boxplot(x='SalStat',y='age',data=data2)
+
+

@@ -23,4 +23,4 @@ demographic details, and select financial parameters.
 
 -**Machine Learning:** Scikit-Learn (train_test_split, LogisticRegression)
 
--**Model Evaluation:** accuracy_score, confusion_matrix
+-**Model Evaluation:** accuracy_score and confusion_matrix

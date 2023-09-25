@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix
 data_income=pd.read_csv('C:\\D Drive\\Projects_Python\\NPTEL\\income.csv')
 data=data_income.copy()
 print(data.info())
-print('Data columns with null values:\n',data.isnull().sum())
+print('Data columns with NULL values:\n',data.isnull().sum())
 #Summary of numerical variables
 summary_num=data.describe()
 print(summary_num)
